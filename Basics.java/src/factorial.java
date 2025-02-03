@@ -6,7 +6,7 @@ public class factorial {
 
         if(n<0){
             System.out.println("Invalid number");
-            return;
+return;
         }
         int factorial = 1;
 

@@ -1,0 +1,2 @@
+public class funstions {
+}

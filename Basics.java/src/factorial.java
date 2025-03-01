@@ -20,8 +20,8 @@ return;
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        printFac(n);
-        return;
+       printFac(n);
+
     }
 
 

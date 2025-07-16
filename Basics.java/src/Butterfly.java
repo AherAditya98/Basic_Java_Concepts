@@ -4,7 +4,7 @@ public class Butterfly {
 
         //first half
         for(int i =1; i<=n;i++){
-            //1st oaert
+            //1st part
             for(int j=1;j<=i;j++){
                 System.out.print("*");
             }
@@ -19,7 +19,6 @@ public class Butterfly {
             }
             System.out.println();
         }
-
         //lower half
         for(int i =n; i>=1;i--){
             //1st oaert

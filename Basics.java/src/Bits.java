@@ -1,11 +1,12 @@
 public class Bits {
-    public static void main (String args[]){
+    public static void main (String[] args){
 
         int n = 5;
-        int pos = 1;
+        int pos = 2;
         int bitmask =1<<pos;
+        int notBitMask = ~(bitmask);
 
-        int newNumber = bitmask | n;
+        int newNumber = notBitMask & n;
         System.out.println(newNumber);
 
     }
